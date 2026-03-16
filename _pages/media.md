@@ -6,6 +6,7 @@ description: Visual academic history
 nav: true
 nav_order: 3
 ---
+
 <div class="media-row">
   <div class="media-logo">
     <img src="{{ '/assets/img/conferences/SCALElogo.png' | relative_url }}" alt="SCALE logo">
@@ -31,21 +32,21 @@ nav_order: 3
   <div class="media-carousel">
     {% include carousel_data.html id="cruiseCarousel" folder="assets/img/conferences/SCALE" slides=site.data.carousels.cruise %}
 
-     <div class="media-links">
-    <p><strong>Related media:</strong></p>
-    <ul>
-      <li>
-        <a href="https://www.sanap.ac.za/scale-win22-research-teams-buoys-seaice" target="_blank" rel="noopener">
-          SANAP Buoy Team
-        </a>
-      </li>
-      <li>
-        <a href="https://zenodo.org/records/7901530" target="_blank" rel="noopener">
-          Zenodo: SCALE WIN-22 Cruise Report
-        </a>
-      </li>
-    </ul>
-  </div>
+    <div class="media-links">
+      <p><strong>Related media:</strong></p>
+      <ul>
+        <li>
+          <a href="https://www.sanap.ac.za/scale-win22-research-teams-buoys-seaice" target="_blank" rel="noopener">
+            SANAP Buoy Team
+          </a>
+        </li>
+        <li>
+          <a href="https://zenodo.org/records/7901530" target="_blank" rel="noopener">
+            Zenodo: SCALE WIN-22 Cruise Report
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -60,27 +61,73 @@ nav_order: 3
     <h2>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</h2>
     <p><strong>Pasadena, USA</strong><br><em>2023</em></p>
 
-    <p>Presented an oral presentation at IGARSS 2023 in Pasadena in session <a href="https://2023.ieeeigarss.org/view_paper.php?PaperNum=3389">TH3.R16: Observation of Sea Ice Properties </a>. Additionally, a short paper was published in the conference proceedings. This describes my data collection and preliminary processing for my MSc thesis on 3D reconstructions of pancake sea ice performed on the SA Agulhas II during SCALE Winter 2022.
+    <p>
+      Presented an oral presentation at IGARSS 2023 in Pasadena in session
+      <a href="https://2023.ieeeigarss.org/view_paper.php?PaperNum=3389">TH3.R16: Observation of Sea Ice Properties</a>.
+      Additionally, a short paper was published in the conference proceedings. This describes my data collection and preliminary processing for my MSc thesis on 3D reconstructions of pancake sea ice performed on the SA Agulhas II during SCALE Winter 2022. Additionally, I attended "Tutorial HD-02 Getting Started with SAR: Understanding, Accessing and Working with Synthetic Aperture Radar Data".
     </p>
   </div>
 
   <div class="media-carousel">
-    {% include carousel_data.html id="cruiseCarousel" folder="assets/img/conferences/SCALE" slides=site.data.carousels.cruise %}
+    {% include carousel_data.html id="igarssCarousel" folder="assets/img/conferences/SCALE" slides=site.data.carousels.cruise %}
 
-     <div class="media-links">
-    <p><strong>Related media:</strong></p>
-    <ul>
-      <li>
-        <a href="https://ieeexplore.ieee.org/document/10282250" target="_blank" rel="noopener">
-          IEEE paper from IGARSS 2023 Conference Proceedings 
-        </a>
-      </li>
-      <li>
-        <a href="https://2023.ieeeigarss.org/view_paper.php?PaperNum=3389" target="_blank" rel="noopener">
-          Link to IGARSS 2023 session TH3.R16
-        </a>
-      </li>
-    </ul>
+    <div class="media-links">
+      <p><strong>Related media:</strong></p>
+      <ul>
+        <li>
+          <a href="https://ieeexplore.ieee.org/document/10282250" target="_blank" rel="noopener">
+            IEEE paper from IGARSS 2023 Conference Proceedings
+          </a>
+        </li>
+        <li>
+          <a href="https://2023.ieeeigarss.org/view_paper.php?PaperNum=3389" target="_blank" rel="noopener">
+            Link to IGARSS 2023 session TH3.R16
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
+</div>
+
+---
+
+<div class="media-row">
+  <div class="media-logo">
+    <img src="{{ '/assets/img/conferences/SOOSlogo.png' | relative_url }}" alt="SOOS logo">
+  </div>
+
+  <div class="media-text">
+    <h2>SOOS</h2>
+    <p><strong>Tasmania, Australia</strong><br><em>2023</em></p>
+
+    <p>
+      A poster presentation for the SOOS Symposium 2023 in Tasmania, focusing on the in-situ measurement techniques of my MSc thesis. This was presented in person by my supervisor, Robyn Verrinder, on my behalf. The abstract is found on page 190 of the handbook linked above. This poster was later presented at the 2024 MARIS ECR conference and won Best Poster.
+    </p>
+  </div>
+
+  <div class="media-carousel">
+    <div class="generic-carousel single-media">
+      <div class="carousel-item active">
+        <img
+          src="{{ '/assets/img/conferences/SOOSpic.jpg' | relative_url }}"
+          class="d-block w-100"
+          alt="SOOS poster">
+
+        <div class="carousel-caption">
+          <p>South African cohort standing with my poster pictured in the background.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="media-links">
+      <p><strong>Related media:</strong></p>
+      <ul>
+        <li>
+          <a href="https://soos.aq/images/soos/activities/calendar/LA_SOOS_2023_HANDBOOK_PROOF5.pdf" target="_blank" rel="noopener">
+            Read my SOOS 2023 abstract (Poster 14, page 190) in the conference handbook.
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
