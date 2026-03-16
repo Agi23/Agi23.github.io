@@ -131,3 +131,45 @@ nav_order: 3
     </div>
   </div>
 </div>
+
+---
+<div class="media-row">
+  <div class="media-logo">
+    <img src="{{ '/assets/img/conferences/ICSHMOlogo.png' | relative_url }}" alt="SOOS logo">
+  </div>
+
+  <div class="media-text">
+    <h2>International Conference on Southern Hemisphere Meteorology and Oceanography (ICSHMO) 2024</h2>
+    <p><strong>Cape Town, South Africa</strong><br><em>2024</em></p>
+
+    <p>
+    Co-authored a poster titled "Antarctic Marginal Ice Zone Sea Ice Floe Field Characteristic Extraction Using Ship-Based LiDAR" presented by fellow MSc researcher David Sephton-Poultney. This work describes the analysis of LiDAR scans of sea ice fields taken on the SCALE Winter 2022 cruise.
+    </p>
+  </div>
+
+  <div class="media-carousel">
+    <div class="generic-carousel single-media">
+      <div class="carousel-item active">
+        <img
+          src="{{ '/assets/img/conferences/Davidpic.jpg' | relative_url }}"
+          class="d-block w-100"
+          alt="David poster">
+
+        <div class="carousel-caption">
+          <p>David Sephton-Poultney standing next to the poster presentation.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="media-links">
+      <p><strong>Related media:</strong></p>
+      <ul>
+        <li>
+          <a href="https://maris.uct.ac.za/articles/2025-04-03-icshmo-2025" target="_blank" rel="noopener">
+            UCT-MARiS Makes Waves at ICSHMO 2025 - article
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
