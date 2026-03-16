@@ -95,3 +95,37 @@
   width: 100%;
   object-fit: cover;
 }
+
+#workshopCarousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#workshopCarousel .carousel-item img {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+#workshopCarousel .carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 0.25rem 0.6rem;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#workshopCarousel .carousel-caption h5,
+#workshopCarousel .carousel-caption p {
+  color: #fff !important;
+  margin: 0;
+}
+
+#workshopCarousel .carousel-item {
+  position: relative;
+}

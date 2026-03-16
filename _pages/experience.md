@@ -153,46 +153,56 @@ nav_order: 3
 </div>
 
 ## Workshop Media
-<div id="workshopCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+<div id="workshopCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+  <ol class="carousel-indicators">
+    <li data-target="#workshopCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#workshopCarousel" data-slide-to="1"></li>
+    <li data-target="#workshopCarousel" data-slide-to="2"></li>
+    <li data-target="#workshopCarousel" data-slide-to="3"></li>
+  </ol>
 
-  <!-- Indicators (the dots at the bottom) -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#workshopCarousel" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#workshopCarousel" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#workshopCarousel" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#workshopCarousel" data-bs-slide-to="3"></button>
-  </div>
-
-  <!-- Slides -->
   <div class="carousel-inner">
-
     <div class="carousel-item active">
-      <img src="{{ '/assets/img/1.jpg' | relative_url }}" class="d-block w-100">
+      <img src="{{ '/assets/img/1.jpg' | relative_url }}" class="d-block w-100" alt="Workshop slide 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Workshop session 1</h5>
+        <p>Caption for the first image.</p>
+      </div>
     </div>
 
     <div class="carousel-item">
-      <img src="{{ '/assets/img/2.jpg' | relative_url }}" class="d-block w-100">
+      <img src="{{ '/assets/img/2.jpg' | relative_url }}" class="d-block w-100" alt="Workshop slide 2">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Caption for the second image.</p>
+      </div>
     </div>
 
     <div class="carousel-item">
-      <img src="{{ '/assets/img/3.jpg' | relative_url }}" class="d-block w-100">
+      <img src="{{ '/assets/img/3.jpg' | relative_url }}" class="d-block w-100" alt="Workshop slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Workshop session 3</h5>
+        <p>Caption for the third image.</p>
+      </div>
     </div>
 
     <div class="carousel-item">
-      <img src="{{ '/assets/img/4.jpg' | relative_url }}" class="d-block w-100">
+      <img src="{{ '/assets/img/4.jpg' | relative_url }}" class="d-block w-100" alt="Workshop slide 4">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Workshop session 4</h5>
+        <p>Caption for the fourth image.</p>
+      </div>
     </div>
-
   </div>
 
-  <!-- Left/right buttons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#workshopCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
+  <a class="carousel-control-prev" href="#workshopCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
 
-  <button class="carousel-control-next" type="button" data-bs-target="#workshopCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-
+  <a class="carousel-control-next" href="#workshopCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
 <div class="logo-grid">
