@@ -30,5 +30,26 @@ nav_order: 3
 
   <div class="media-carousel">
     {% include carousel_data.html id="cruiseCarousel" folder="assets/img/conferences/SCALE" slides=site.data.carousels.cruise %}
+
+     <div class="media-links">
+    <p><strong>Related media:</strong></p>
+    <ul>
+      <li>
+        <a href="https://www.sanap.ac.za/scale-win22-research-teams-buoys-seaice" target="_blank" rel="noopener">
+          SANAP Buoy Team
+        </a>
+      </li>
+      <li>
+        <a href="https://example.com/article" target="_blank" rel="noopener">
+          Example news article
+        </a>
+      </li>
+      <li>
+        <a href="https://example.com/paper" target="_blank" rel="noopener">
+          Example research paper
+        </a>
+      </li>
+    </ul>
+  </div>
   </div>
 </div>
