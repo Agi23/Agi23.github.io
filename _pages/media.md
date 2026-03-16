@@ -198,3 +198,32 @@ nav_order: 3
     </div>
   </div>
 </div>
+
+---
+## Poles to the Promenade
+A collection of 20 powerful photographs and data visualisations captured by South African polar researchers displayed on the Seapoint Promenade for a period of 2 years (2026-2028). 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/PromTotal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid 
+      path="assets/img/AgiProm.jpg"
+      title="example image"
+      caption="Contour map visualisation created from my 3D reconstructed pancake ice floe."
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid 
+      path="assets/img/RobynProm.jpg"
+      title="example image"
+      caption="Buoy deployment captured by Robyn Verrinder. L-R: Jan-Victor Björkqvist, Agoritsa Spirakis, Jacques Welgemoed"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
