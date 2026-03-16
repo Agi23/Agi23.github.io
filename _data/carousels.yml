@@ -5,3 +5,33 @@ cruise:
     caption: Caption two.
   - image: IcePancakes.jpg
     caption: Caption three.
+
+igarss:
+  - image: presenting.jpg
+    caption: Oral presentation at IGARSS.
+  - image: jpl.jpg
+    caption: Visit to NASA's Jet Propulsion Lab
+  - image: gala.jpg
+    caption: Gala dinner at the California Science Center.
+  - image: tutorial1.png
+    caption: Getting started with SAR Tutorial.
+  - image: tutorial2.jpg
+    caption: Getting started with SAR Tutorial group photo.
+
+soos:
+  - image: SOOSpic.jpg
+    caption: South African cohort at SOOS 2023.
+  - image: ECRpic1.jpg
+    caption: Poster presentation at MARIS ECR conference.
+  - image: bestPoster.jpg
+    caption: Best Poster award at MARIS ECR conference.
+
+sanap:
+  - image: SANAPzoom.png
+    caption: SANAP 2025 Presentation (1).
+  - image: SANAPfullpres.jpg
+    caption: SANAP 2025 Presentation (2).
+  - image: SANAPgamedrive.jpg
+    caption: Game drive at Kwalata Lodge.
+  - image: SANAPgroup.jpg
+    caption: SANAP 2025 group photo.

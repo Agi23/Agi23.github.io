@@ -69,7 +69,7 @@ nav_order: 3
   </div>
 
   <div class="media-carousel">
-    {% include carousel_data.html id="igarssCarousel" folder="assets/img/conferences/SCALE" slides=site.data.carousels.cruise %}
+    {% include carousel_data.html id="igarssCarousel" folder="assets/img/conferences/IGARSS" slides=site.data.carousels.igarss %}
 
     <div class="media-links">
       <p><strong>Related media:</strong></p>
@@ -105,20 +105,8 @@ nav_order: 3
     </p>
   </div>
 
-  <div class="media-carousel">
-    <div class="generic-carousel single-media">
-      <div class="carousel-item active">
-        <img
-          src="{{ '/assets/img/conferences/SOOSpic.jpg' | relative_url }}"
-          class="d-block w-100"
-          alt="SOOS poster">
-
-        <div class="carousel-caption">
-          <p>South African cohort standing with my poster pictured in the background.</p>
-        </div>
-      </div>
-    </div>
-
+   <div class="media-carousel">
+    {% include carousel_data.html id="soosCarousel" folder="assets/img/conferences/SOOS" slides=site.data.carousels.soos %}
     <div class="media-links">
       <p><strong>Related media:</strong></p>
       <ul>
@@ -191,7 +179,7 @@ nav_order: 3
   </div>
 
   <div class="media-carousel">
-    {% include carousel_data.html id="sanap7Carousel" folder="assets/img/conferences/SCALE" slides=site.data.carousels.cruise %}
+    {% include carousel_data.html id="sanap7Carousel" folder="assets/img/conferences/SANAP" slides=site.data.carousels.sanap %}
 
     <div class="media-links">
       <p><strong>Related media:</strong></p>
