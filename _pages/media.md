@@ -173,3 +173,40 @@ nav_order: 3
     </div>
   </div>
 </div>
+
+---
+
+<div class="media-row">
+  <div class="media-logo">
+    <img src="{{ '/assets/img/conferences/SANAPlogo.png' | relative_url }}" alt="SANAP logo">
+  </div>
+
+  <div class="media-text">
+    <h2>SANAP 2025</h2>
+    <p><strong>Kwalata Game Lodge, Gauteng, South Africa</strong><br><em>2025</em></p>
+
+    <p>
+      Presented my completed work as part of a group presentation from the UCT MARIS group with my supervisor Robyn Verrinder.
+    </p>
+  </div>
+
+  <div class="media-carousel">
+    {% include carousel_data.html id="sanap7Carousel" folder="assets/img/conferences/SCALE" slides=site.data.carousels.cruise %}
+
+    <div class="media-links">
+      <p><strong>Related media:</strong></p>
+      <ul>
+        <li>
+          <a href="https://maris.uct.ac.za/articles/2025-12-11-uct-maris-researchers-engage-south-africas-7th-sanap-symposium?slide=11&content=0" target="_blank" rel="noopener">
+            UCT-MARiS Researchers Engage in South Africa’s 7th SANAP Symposium - article
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/reel/DUQHHqQj2i4/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener">
+            SANAP Symposium 2025 video
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
