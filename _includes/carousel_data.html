@@ -1,0 +1,39 @@
+{% assign carousel_id = include.id %}
+{% assign folder = include.folder %}
+{% assign slides = include.slides %}
+
+<div id="{{ carousel_id }}" class="carousel slide generic-carousel" data-ride="carousel" data-interval="4000">
+  <ol class="carousel-indicators">
+    {% for slide in slides %}
+      <li data-target="#{{ carousel_id }}" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+    {% endfor %}
+  </ol>
+
+  <div class="carousel-inner">
+    {% for slide in slides %}
+      <div class="carousel-item {% if forloop.first %}active{% endif %}">
+        <img
+          src="{{ '/' | append: folder | append: '/' | append: slide.image | relative_url }}"
+          class="d-block w-100"
+          alt="Slide {{ forloop.index }}"
+        >
+
+        {% if slide.caption %}
+          <div class="carousel-caption">
+            <p>{{ slide.caption }}</p>
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <a class="carousel-control-prev" href="#{{ carousel_id }}" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="carousel-control-next" href="#{{ carousel_id }}" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

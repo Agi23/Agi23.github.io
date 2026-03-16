@@ -1,0 +1,7 @@
+cruise:
+  - image: field.jpg
+    caption: Caption one.
+  - image: GOPROrig.jpg
+    caption: Caption two.
+  - image: IcePancakes.jpg
+    caption: Caption three.
