@@ -158,3 +158,45 @@
   color: #fff !important;
   margin: 0;
 }
+
+.media-row {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr) 320px;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.media-logo img {
+  width: 90px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.media-text {
+  min-width: 0;
+}
+
+.media-carousel {
+  width: 320px;
+}
+
+.media-carousel .generic-carousel {
+  width: 100%;
+}
+
+.media-carousel .generic-carousel .carousel-item {
+  height: 220px;
+}
+
+@media (max-width: 900px) {
+  .media-row {
+    grid-template-columns: 90px 1fr;
+  }
+
+  .media-carousel {
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: 420px;
+  }
+}
