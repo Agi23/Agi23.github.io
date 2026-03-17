@@ -11,94 +11,75 @@ nav_order: 3
 
 <div class="edu-entry">
   <div class="edu-logo">
-    <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
+    <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="UCT image">
   </div>
   <div class="edu-content">
-    <h2>UCT Tutor</h2>
-    <p><strong>University of Cape Town</strong><br><em>2021</em></p>
+    <h2>Teaching</h2>
+    <p><strong>University of Cape Town</strong></p>
 
-    <h3>Signals and Systems II Tutor</h3>
-    <p><strong>EEE3092F</strong></p>
-
+    <h3>Teaching Assistant - EEE2046F: Embedded Systems I</h3>
+    <p><strong>2023 Semester 1</strong></p>
     <ul>
-      <li>Third year Electrical Engineering course</li>
-      <li><strong>Duties</strong>
-        <ul>
-          <li>Laboratories
-            <ul>
-              <li>Assisting students in the lab</li>
-              <li>Marking lab reports</li>
-            </ul>
-          </li>
-          <li>Tests
-            <ul>
-              <li>Invigilating class tests</li>
-              <li>Marking class tests</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
+      <li> Led weekly practical sessions for 194 students in coursework covering STM32 C programming and digital logic implementation.</li>
+      <li> Managed a team of tutors achieving timeous assignment grading and fair marking guidelines.</li>
+      <li> Assisted with general course administration including the creation of the EEE2046 Practical Instructions Documentation available here on <a href="https://github.com/Agi23/EEE2046Pracs" target="_blank" rel="noopener noreferrer">GitHub</a>.</li>
+    </ul>
+    <h3>Tutor</h3>
+      <ul>
+      <li>EEE2050F: Embedded Systems I (Head Tutor) – <strong>2023 Semester 2</strong> </li>
+      <li>EEE3092F: Signals and Systems II – <strong>2021 Semester 1</strong> </li>
+      <li>CSC1019F/CSC1017F: Introduction to Programming – <strong>2021 Semester 1</strong> </li>
     </ul>
   </div>
 </div>
 
-<img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
-
 ---
-
-## Computer Science: Introduction to Programming Tutor
-
-**CSC1019F**
-
-- First year Computer Science course
-- **Duties**
-  - Marking assignments
-    - Giving feedback on code method, style, and use of comments
-  - Assisting students on the class forum and WhatsApp group
-    - Answering questions relating to both theory and practical (Python) elements of the course to guide students in the right direction
-
-<img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
-
-<img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
-
----
-
-<div class="edu-entry">
-  <div class="edu-logo">
-    <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
+<div class="media-row">
+  <div class="media-logo">
+    <img src="{{ '/assets/img/ThinkstLogo.jpg' | relative_url }}" alt="Thinkst logo">
   </div>
-  <div class="edu-content">
+
+  <div class="media-text">
     <h2>Software Development Intern</h2>
     <p><strong>Thinkst Canary</strong><br><em>2021</em></p>
 
     <p>
       I participated in a 3 week software development internship hosted by Thinkst Canary, a cyber security company.
-      My work involved expanding their open-source site canarytokens.org to include a Windows Service that, once installed,
-      triggers a Canarytoken if it is killed or uninstalled. This service also gives the option of hibernating the system on trigger.
-      My design was expected to be added to the canarytokens.org site after a series of fixes and changes by the company.
+      My work involved expanding their open-source site canarytokens.org to include a Windows Service that, once installed, triggers a Canarytoken if it is killed or uninstalled. This service also gives the option of hibernating the system on trigger.
     </p>
-
     <p>
-      The Windows service was made in C# in Visual Studio, code integration was done in Python, and the user interface required some HTML/CSS.
-      In the process I became more familiar with Git/GitHub and using Amazon EC2.
+      The Windows service was made in C# in Visual Studio, code integration was done in Python, and the user interface required some HTML/CSS.In the process I became more familiar with Git/GitHub and using Amazon EC2.
     </p>
+    <p><a href="https://github.com/Agi23/canarytokens" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+  </div>
 
-    <p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+  <div class="media-carousel">
+    <div class="generic-carousel single-media">
+      <div class="carousel-item active">
+        <img
+          src="{{ '/assets/img/canaryToken.png' | relative_url }}"
+          class="d-block w-100"
+          alt="Canarytoken">
+
+        <div class="carousel-caption">
+          <p>Carnarytoken UI screenshot</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
 
 ## Tools and Technologies
 
 <div class="logo-grid">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example logo">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example logo">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example logo">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example logo">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example logo">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example logo">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example logo">
+  <img src="{{ '/assets/img/Logos/csharp.jpg' | relative_url }}" alt="csharp logo">
+  <img src="{{ '/assets/img/Logos/python.jpg' | relative_url }}" alt="python logo">
+  <img src="{{ '/assets/img/Logos/aws.jpg' | relative_url }}" alt="aws logo">
+  <img src="{{ '/assets/img/Logos/html.jpg' | relative_url }}" alt="html logo">
+  <img src="{{ '/assets/img/Logos/github.jpg' | relative_url }}" alt="github logo">
+  <img src="{{ '/assets/img/Logos/vs.jpg' | relative_url }}" alt="vs logo">
+  <img src="{{ '/assets/img/Logos/slack.jpg' | relative_url }}" alt="slack logo">
 </div>
 
 ---
