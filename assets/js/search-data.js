@@ -10,15 +10,15 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-education",
-          title: "Education",
-          description: "Academic background, projects, and qualifications.",
+          title: "education",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/education/";
           },
         },{id: "nav-experience",
           title: "experience",
-          description: "Work, teaching, leadership, and training experience.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/experience/";
