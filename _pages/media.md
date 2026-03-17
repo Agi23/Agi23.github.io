@@ -123,7 +123,7 @@ nav_order: 3
 ---
 <div class="media-row">
   <div class="media-logo">
-    <img src="{{ '/assets/img/conferences/ICSHMOlogo.png' | relative_url }}" alt="SOOS logo">
+    <img src="{{ '/assets/img/conferences/ICSHMOlogo.png' | relative_url }}" alt="ICHSMO logo">
   </div>
 
   <div class="media-text">
@@ -131,21 +131,20 @@ nav_order: 3
     <p><strong>Cape Town, South Africa</strong><br><em>2024</em></p>
 
     <p>
-    Co-authored a poster titled "Antarctic Marginal Ice Zone Sea Ice Floe Field Characteristic Extraction Using Ship-Based LiDAR" presented by fellow MSc researcher David Sephton-Poultney. This work describes the analysis of LiDAR scans of sea ice fields taken on the SCALE Winter 2022 cruise.
+      Co-authored a poster titled "Antarctic Marginal Ice Zone Sea Ice Floe Field Characteristic Extraction Using Ship-Based LiDAR" presented by fellow MSc researcher David Sephton-Poultney. This work describes the analysis of LiDAR scans of sea ice fields taken on the SCALE Winter 2022 cruise.
     </p>
   </div>
 
   <div class="media-carousel">
     <div class="generic-carousel single-media">
-      <div class="carousel-item active">
-        <img
-          src="{{ '/assets/img/conferences/Davidpic.jpg' | relative_url }}"
-          class="d-block w-100"
-          alt="David poster">
+      <img
+        src="{{ '/assets/img/conferences/Davidpic.jpg' | relative_url }}"
+        class="d-block w-100"
+        alt="David poster"
+      >
 
-        <div class="carousel-caption">
-          <p>David Sephton-Poultney standing next to the poster presentation.</p>
-        </div>
+      <div class="media-caption">
+        <p>David Sephton-Poultney standing next to the poster presentation.</p>
       </div>
     </div>
 
@@ -154,7 +153,7 @@ nav_order: 3
       <ul>
         <li>
           <a href="https://maris.uct.ac.za/articles/2025-04-03-icshmo-2025" target="_blank" rel="noopener">
-            UCT-MARiS Makes Waves at ICSHMO 2025 - article
+            UCT-MARiS Makes Waves at ICSHMO 2025 – article
           </a>
         </li>
       </ul>
@@ -225,5 +224,57 @@ A collection of 20 powerful photographs and data visualisations captured by Sout
       caption="Buoy deployment captured by Robyn Verrinder. L-R: Jan-Victor Björkqvist, Agoritsa Spirakis, Jacques Welgemoed"
       class="img-fluid rounded z-depth-1"
     %}
+  </div>
+</div>
+---
+
+
+<div class="media-row">
+  <div class="media-logo">
+    <img src="{{ '/assets/img/APECSlogo.jpg' | relative_url }}" alt="APECS logo">
+  </div>
+
+  <div class="media-text">
+    <h2>APECS Member and Volunteer</h2>
+    <p><strong>Association of Polar Early Career Scientists of South Africa (APECSSA)</strong><br><em>2022–2026</em></p>
+
+    <p>
+      I am part of APECSSA, which hosts a number of online and in-person events for early-career polar researchers. It is a wonderful organisation with many helpful resources and social media posts.
+    </p>
+  </div>
+
+  <div class="media-carousel">
+    <div class="generic-carousel single-media">
+      <img
+        src="{{ '/assets/img/APECSprofile.jpg' | relative_url }}"
+        class="d-block w-100"
+        alt="APECS profile"
+      >
+
+      <div class="media-caption">
+        <p>My APECS profile shared for International Women in Engineering Day</p>
+      </div>
+    </div>
+
+    <div class="media-links">
+      <p><strong>Related media:</strong></p>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/share/p/1N8YbqoUfS/" target="_blank" rel="noopener">
+            APECS International Women in Engineering Day Profile Facebook post
+          </a>
+        </li>
+        <li>
+          <a href="https://apecssa.wordpress.com/" target="_blank" rel="noopener">
+            APECSSA website
+          </a>
+        </li>
+        <li>
+          <a href="https://www.apecs.is/get-involved/join-apecs.html" target="_blank" rel="noopener">
+            Join APECS!
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
