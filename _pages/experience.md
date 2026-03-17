@@ -110,7 +110,24 @@ nav_order: 3
 </div>
 
 ---
+<div class="media-row">
+  <div class="media-logo">
+    <img src="{{ '/assets/img/expoLogo.jpg' | relative_url }}" alt="expo logo">
+  </div>
 
+  <div class="media-text">
+   <h2>Regional Science Expo Judge</h2>
+    <p><strong>Cape Town Regionals</strong><br><em>2022, 2023, 2025</em></p>
+    <p>
+      I volunteer at the Eskom Science Expo in Cape Town (usually in August), where I am part of the Engineering category judging team. It is phenomenal engaging with young students interested in science and engineering.
+    </p>
+  </div>
+
+  <div class="media-carousel">
+    {% include carousel_data.html id="expoCarousel" folder="assets/img/EXPO" slides=site.data.carousels.expo %}
+  </div>
+</div>
+---
 <div class="edu-entry">
   <div class="edu-logo">
     <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
