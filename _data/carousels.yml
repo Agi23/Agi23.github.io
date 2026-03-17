@@ -1,10 +1,10 @@
 cruise:
   - image: field.jpg
-    caption: Caption one.
+    caption: With my 3D imaging rig
   - image: GOPROrig.jpg
-    caption: Caption two.
+    caption: With my GoPro stereo rig
   - image: IcePancakes.jpg
-    caption: Caption three.
+    caption: Field of ice pancakes (photo by Robyn Verrinder)
 
 igarss:
   - image: presenting.jpg

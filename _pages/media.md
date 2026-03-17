@@ -19,7 +19,8 @@ nav_order: 3
     <p>I had the privilege to work on SCALE Winter 2022 expedition to the Antarctic Marginal Ice Zone aboard the SA Agulhas II between the 11th and the 31st of July. I was involved in several activities:</p>
     <ul>
       <li>Collected data for the 3D reconstruction of retrieved pancake ice using LiDAR and depth cameras for my MSc work</li>
-      <li>Collaborated with the University of Melbourne and the University of East Anglia in the collection of LiDAR data of the open ocean and waves in ice-tethered buoy (SHARC buoy) deployment operations</li>
+      <li>Collaborated with the University of Melbourne and the University of East Anglia in the collection LiDAR data of the open ocean and waves in ice</li>
+      <li>Assisted with UCT ice-tethered buoy (SHARC buoy) deployment operations.</li>
       <li>Collected stereo camera data of buoy deployments and retrievals for the purposes of defining the shape and size of the individual pancakes that the buoys were deployed on</li>
     </ul>
 
@@ -97,11 +98,11 @@ nav_order: 3
   </div>
 
   <div class="media-text">
-    <h2>SOOS</h2>
+    <h2>Southern Ocean Observating System (SOOS) Symposium</h2>
     <p><strong>Tasmania, Australia</strong><br><em>2023</em></p>
 
     <p>
-      A poster presentation for the SOOS Symposium 2023 in Tasmania, focusing on the in-situ measurement techniques of my MSc thesis. This was presented in person by my supervisor, Robyn Verrinder, on my behalf. The abstract is found on page 190 of the handbook linked above. This poster was later presented at the 2024 MARIS ECR conference and won Best Poster.
+      A poster presentation titled "In-situ Static Sea Ice Imaging Using LiDAR and Depth Camera Technology" for the SOOS Symposium 2023 in Tasmania, focusing on the in-situ measurement techniques of my MSc thesis. This was presented in person by my supervisor, Robyn Verrinder, on my behalf. The abstract is found on page 190 of the handbook linked above. This poster was later presented at the 2024 MARIS ECR conference and won Best Poster.
     </p>
   </div>
 
@@ -169,7 +170,7 @@ nav_order: 3
   </div>
 
   <div class="media-text">
-    <h2>SANAP 2025</h2>
+    <h2>7th South African Nation Antarctic Programme Symposium</h2>
     <p><strong>Kwalata Game Lodge, Gauteng, South Africa</strong><br><em>2025</em></p>
 
     <p>
