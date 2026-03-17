@@ -69,9 +69,6 @@ nav_order: 3
   </div>
 </div>
 
-
-## Tools and Technologies
-
 <div class="logo-grid">
   <img src="{{ '/assets/img/Logos/csharp.jpg' | relative_url }}" alt="csharp logo">
   <img src="{{ '/assets/img/Logos/python.jpg' | relative_url }}" alt="python logo">
@@ -80,6 +77,36 @@ nav_order: 3
   <img src="{{ '/assets/img/Logos/github.jpg' | relative_url }}" alt="github logo">
   <img src="{{ '/assets/img/Logos/vs.jpg' | relative_url }}" alt="vs logo">
   <img src="{{ '/assets/img/Logos/slack.jpg' | relative_url }}" alt="slack logo">
+</div>
+
+---
+<div class="media-row">
+  <div class="media-logo">
+    <img src="{{ '/assets/img/Logos/cput.jpg' | relative_url }}" alt="SANAP logo">
+  </div>
+
+  <div class="media-text">
+   <h2>Practical Training</h2>
+    <p><strong>Cape Peninsula University of Technology</strong><br><em>2019</em></p>
+    <p>
+      I completed a 2 week workshop at the Cape Peninsula University of Technology, arranged by UCT,
+      to equip students with practical engineering skills.
+    </p>
+
+    <ul>
+      <li>CNC work</li>
+      <li>Welding</li>
+      <li>Fitting and turning</li>
+      <li>Basic hand skills</li>
+      <li>Metrology</li>
+      <li>Pneumatics</li>
+      <li>Electrical automation</li>
+    </ul>
+  </div>
+
+  <div class="media-carousel">
+    {% include carousel_data.html id="cputCarousel" folder="assets/img/CPUT" slides=site.data.carousels.cput %}
+  </div>
 </div>
 
 ---
@@ -108,83 +135,6 @@ nav_order: 3
 
 ---
 
-<div class="edu-entry">
-  <div class="edu-logo">
-    <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
-  </div>
-  <div class="edu-content">
-    <h2>Practical Training</h2>
-    <p><strong>Cape Peninsula University of Technology</strong><br><em>2019</em></p>
-
-    <p>
-      I completed a 2 week workshop at the Cape Peninsula University of Technology, arranged by UCT,
-      to equip students with practical engineering skills.
-    </p>
-
-    <ul>
-      <li>CNC work</li>
-      <li>Welding</li>
-      <li>Fitting and turning</li>
-      <li>Basic hand skills</li>
-      <li>Metrology</li>
-      <li>Pneumatics</li>
-      <li>Electrical automation</li>
-    </ul>
-  </div>
-</div>
-
-## Workshop Media
-<div id="workshopCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
-  <ol class="carousel-indicators">
-    <li data-target="#workshopCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#workshopCarousel" data-slide-to="1"></li>
-    <li data-target="#workshopCarousel" data-slide-to="2"></li>
-    <li data-target="#workshopCarousel" data-slide-to="3"></li>
-  </ol>
-
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="{{ '/assets/img/1.jpg' | relative_url }}" class="d-block w-100" alt="Workshop slide 1">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Workshop session 1</h5>
-        <p>Caption for the first image.</p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/2.jpg' | relative_url }}" class="d-block w-100" alt="Workshop slide 2">
-      <div class="carousel-caption d-none d-md-block">
-        <p>Caption for the second image.</p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/3.jpg' | relative_url }}" class="d-block w-100" alt="Workshop slide 3">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Workshop session 3</h5>
-        <p>Caption for the third image.</p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/4.jpg' | relative_url }}" class="d-block w-100" alt="Workshop slide 4">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Workshop session 4</h5>
-        <p>Caption for the fourth image.</p>
-      </div>
-    </div>
-  </div>
-
-  <a class="carousel-control-prev" href="#workshopCarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-
-  <a class="carousel-control-next" href="#workshopCarousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
 <div class="logo-grid">
   <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">

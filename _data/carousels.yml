@@ -35,3 +35,17 @@ sanap:
     caption: Game drive at Kwalata Lodge.
   - image: SANAPgroup.jpg
     caption: SANAP 2025 group photo.
+
+cput:
+  - image: cnc.jpg
+    caption: CNC output.
+  - image: jack.jpg
+    caption: Welding output carjack.
+  - image: workshop.jpg
+    caption: CPUT workshop
+  - image: hand.jpg
+    caption: Basic hand skills output.
+  - image: lathe.jpg
+    caption: Fitting and Turning lathe.
+  - image: punch.jpg
+    caption: Fitting and Turning output.
