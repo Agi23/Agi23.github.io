@@ -245,3 +245,23 @@
   flex: 1;
   min-width: 250px;
 }
+
+.three-image-row {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+/* width ratios */
+.three-image-row .img-1 { flex: 39.2; }
+.three-image-row .img-2 { flex: 29.5; }
+.three-image-row .img-3 { flex: 31.3; }
+
+/* images scale inside their containers */
+.three-image-row img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5rem;
+}

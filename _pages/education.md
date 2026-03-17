@@ -29,7 +29,7 @@ nav_order: 2
 
 <div class="edu-entry">
   <div class="edu-logo">
-    <img src="/assets/img/example.jpg" alt="Example image">
+    <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
   </div>
 
   <div class="edu-content">
@@ -43,9 +43,20 @@ nav_order: 2
       <li>Network Engineering</li>
     </ul>
 
-    <p><a href="/assets/pdf/transcript.pdf">Download transcript</a></p>
+    <p><a href="{{ '/assets/pdf/transcript.pdf' | relative_url }}">Download transcript</a></p>
 
-    <!-- NEW: project row -->
+    <div class="three-image-row">
+      <div class="img-1">
+        <img src="{{ '/assets/img/circuit.jpg' | relative_url }}" alt="circuit">
+      </div>
+      <div class="img-2">
+        <img src="{{ '/assets/img/campus.jpg' | relative_url }}" alt="campus">
+      </div>
+      <div class="img-3">
+        <img src="{{ '/assets/img/soldering.jpg' | relative_url }}" alt="solder">
+      </div>
+    </div>
+
     <div class="project-row">
       <div class="project-text">
         <p><strong>Engineering Design Project: CR95HF NFC API for Raspberry Pi</strong></p>
@@ -64,12 +75,12 @@ nav_order: 2
         </p>
       </div>
 
-      <!-- video aligned ONLY with this project -->
       <div class="project-media">
         <div class="generic-carousel single-media">
           <iframe
             src="https://www.youtube.com/embed/y3y740CwnEA"
             title="Engineering Design Demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
           </iframe>
 
@@ -81,6 +92,7 @@ nav_order: 2
     </div>
   </div>
 </div>
+---
 
 <div class="edu-entry">
   <div class="edu-logo">
