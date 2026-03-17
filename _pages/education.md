@@ -17,13 +17,43 @@ nav_order: 2
     <p>Title:<em>3D Reconstruction of Pancake Sea Ice Floes Using LiDAR and Cameras</em></p>
     <p><strong>University of Cape Town</strong><br><em>2022–2026</em></p>
     <p>Submitted in February 2026, still awaiting results.</p>
+    <p>
+I completed my MSc at the <a href="https://africanroboticsunit.com/">African Robotics Unit (ARU)</a> within the UCT Department of Electrical Engineering, supervised by Robyn Verrinder and James Hepworth. This work formed part of the interdisciplinary <a href="https://maris.uct.ac.za/">Marine and Antarctic Research for Innovation and Sustainability (MARIS)</a> programme.
+</p>
 
-    <p> Abstract: This project investigates the use of LiDAR and camera technology for the purpose of geometric characterisation of pancake sea ice floes in the Antarctic Marginal Ice Zone. Surface roughness and geometric variability influence the drag force experienced by sea ice floes, thereby affecting the thermodynamic interactions at the air-ice interface and ultimately impacting floe morphology and drift. This research reviews existing literature on sea ice surface roughness parameterisation and point cloud processing techniques to inform the development of an appropriate reconstruction and analysis pipeline. A complete processing pipeline, validated using ground truth experiments, is constructed for the extraction of key geometric parameters from in-situ pancake floes collected aboard the SA Agulhas II during the SCALE Winter 2022 cruise. The methodology successfully reconstructs an extracted pancake floe, reporting an RMS surface roughness of 8.2 cm, and identifies a three-dimensional sail structure using the Rayleigh criterion. The resulting framework provides a realistic geometric reconstruction suitable for computational fluid dynamics simulations as well as a literature-informed parameterisation of pancake sea ice morphology, supporting improved physical representation of sea ice geometry in modeling studies. </p>
+<ul>
+  <li><strong>Abstract:</strong> This project investigated the use of LiDAR and camera systems for the geometric characterisation of pancake sea ice floes in the Antarctic Marginal Ice Zone. Surface roughness and geometric variability influence drag forces and air–ice interactions, impacting floe morphology and drift. A complete processing pipeline was developed and validated using ground truth experiments to extract key geometric parameters from in-situ data collected aboard the SA Agulhas II during the SCALE Winter 2022 expedition. The methodology reconstructed pancake floes with an RMS surface roughness of 8.2 cm and identified three-dimensional sail structures using the Rayleigh criterion. The resulting framework enables realistic geometric reconstruction for CFD simulations and supports improved representation of sea ice morphology in modelling studies.</li>
 
-    <p>Published a paper in IEEE International Geoscience and Remote Sensing Symposium 2023 conference proceedings available <a href="/assets/pdf/transcript.pdf">here</a></p>
+  <li>
+    Produced a paper published in the <strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2023</strong> proceedings. Available <a href="/assets/pdf/transcript.pdf">here</a>.
+  </li>
 
-    <p> Please view my Academia page for more details about the various opportunities I've been privleged to present my work at. </p>
-  </div>
+  <li>
+    Presented research at multiple academic forums. See my <a href="#">Academia profile</a> for a full list.
+  </li>
+
+  <li>
+    <a href="{{ '/assets/files/pancake_keyring_spirakis.3mf' | relative_url }}" download>
+      Download a 3D-printable keyring generated from my reconstructed pancake ice model
+    </a>
+  </li>
+</ul>
+
+<p><strong>Leadership and Collaboration</strong></p>
+<ul>
+  <li>
+  Collaborated with the University of Melbourne (Alessandro Toffoli, Giulio Passerotti), University of East Anglia (Alberto Alberello) for the LiDAR system procurement and deployment during SCALE Winter 2022 cruise.
+  </li>
+  <li>
+    Led a team of undergraduate vacation work students for a three week period for a redesign the imaging hardware rig and the collection of a validation dataset. This included improvements in the mechanical design, a move to a ROS2 system and custom PCB integration.
+  </li>
+
+  <li>
+    Assisted with the supervision of final-year projects: Gregory da Silva (2022) on stereo image analysis of buoy deployments, and Daniel Jones (2023) on LiDAR motion compensation using th device's IMU data.
+  </li>
+</ul>
+
+</div>
 </div>
 --- 
 
@@ -116,10 +146,7 @@ nav_order: 2
 
 ## Technical Skills
 
-<div class="logo-grid">
-  <img src="/assets/img/example.jpg" alt="Example logo">
-  <img src="/assets/img/example.jpg" alt="Example logo">
-  <img src="/assets/img/example.jpg" alt="Example logo">
-  <img src="/assets/img/example.jpg" alt="Example logo">
-  <img src="/assets/img/example.jpg" alt="Example logo">
-</div>
+- **Programming:** Python, Java, Julia, C/C++, C#, MATLAB
+- **Robotics and Engineering Tools:** ROS/ROS2, CAD (Fusion360, Solidworks), 3D Printing, Raspberry Pi, Livox LiDAR, Intel Realsense, Unix, PCB design (Altium/KiCAD), STM32
+- **Software and Documentation:** LaTeX, Microsoft Office, HTML, Git/GitHub, Unix
+
