@@ -29,7 +29,7 @@ I completed my MSc at the <a href="https://africanroboticsunit.com/">African Rob
   </li>
 
   <li>
-    Presented research at multiple academic forums. See my <a href="#">Academia profile</a> for a full list.
+    Presented research at multiple academic forums. See my <a href="{{ '/academia/' | relative_url }}">academia</a> page for a full list with accompanying photographs.
   </li>
 
   <li>
