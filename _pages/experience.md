@@ -110,6 +110,7 @@ nav_order: 3
 </div>
 
 ---
+# Volunteering
 <div class="media-row">
   <div class="media-logo">
     <img src="{{ '/assets/img/expoLogo.jpg' | relative_url }}" alt="expo logo">
@@ -128,34 +129,32 @@ nav_order: 3
   </div>
 </div>
 ---
-<div class="edu-entry">
-  <div class="edu-logo">
-    <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
+<div class="media-row">
+  <div class="media-logo">
+    <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="UCT logo">
   </div>
-  <div class="edu-content">
-    <h2>UCT Biomimicry Society Secretary</h2>
-    <p><strong>University of Cape Town</strong><br><em>2019</em></p>
 
-    <p><em>
-      “Biomimicry is the conscious emulation of life’s genius. Learning about the natural world is one thing;
-      learning from the natural world, that’s the real switch... that’s biomimicry.” — Janine Benyus
-    </em></p>
+  <div class="media-text">
+    <h2>Secretary</h2>
+    <p><strong>UCT Biomimicry Society</strong><br><em>2019</em></p>
 
     <p>
-      Biomimicry looks to nature for design inspiration when solving problems.
-      I was involved in organising society events, managing announcements for the events, and handling other society administration.
+      Biomimicry looks to nature for design inspiration when solving problems. I was involved in organising society events, managing announcements for the events, and handling other society administration.
     </p>
   </div>
-</div>
 
-<img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
+  <div class="media-carousel">
+    <div class="generic-carousel single-media">
+      <div class="carousel-item active">
+        <img
+          src="{{ '/assets/img/biomimicry.jpg' | relative_url }}"
+          class="d-block w-100"
+          alt="Biomimicry">
 
----
-
-
-<div class="logo-grid">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
-  <img src="{{ '/assets/img/example.jpg' | relative_url }}" alt="Example image">
+        <div class="carousel-caption">
+          <p>Illustration of Fibonacci spiral arrangement in nature (photo by Leonid Iastremskyi, 2015r)</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
