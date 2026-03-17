@@ -4,7 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
   - African-Robotics-Unit/3D-SeaIce
   - Agi23/EEE2046Pracs
   - Agi23/canarytokens
