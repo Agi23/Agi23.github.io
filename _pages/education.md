@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Education
+title: education
 permalink: /education/
-description: Academic background, projects, and qualifications.
+description:
 nav: true
 nav_order: 2
 ---

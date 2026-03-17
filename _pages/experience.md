@@ -2,12 +2,11 @@
 layout: page
 title: experience
 permalink: /experience/
-description: Work, teaching, leadership, and training experience.
+description: 
 nav: true
 nav_order: 3
 ---
 
-# Experience
 
 <div class="edu-entry">
   <div class="edu-logo">
