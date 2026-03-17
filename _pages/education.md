@@ -14,6 +14,7 @@ nav_order: 2
   </div>
   <div class="edu-content">
     <h2>MSc Electrical Engineering (by dissertation)</h2>
+    <p>Title:<em>3D Reconstruction of Pancake Sea Ice Floes Using LiDAR and Cameras</em></p>
     <p><strong>University of Cape Town</strong><br><em>2022–2026</em></p>
     <p>Submitted in February 2026, still awaiting results.</p>
 

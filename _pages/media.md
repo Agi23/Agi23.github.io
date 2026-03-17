@@ -1,7 +1,7 @@
 ---
 layout: page
-title: media
-permalink: /media/
+title: academia
+permalink: /academia/
 description: Visual academic history
 nav: true
 nav_order: 3
@@ -210,7 +210,7 @@ A collection of 20 powerful photographs and data visualisations captured by Sout
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid 
-      path="assets/img/AgiProm.jpg"
+      path="assets/img/AgiProm.JPG"
       title="AgiPromenade"
       caption="Contour map visualisation created from my 3D reconstructed pancake ice floe."
       class="img-fluid rounded z-depth-1"
@@ -219,7 +219,7 @@ A collection of 20 powerful photographs and data visualisations captured by Sout
 
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid 
-      path="assets/img/RobynProm.jpg"
+      path="assets/img/RobynProm.JPG"
       title="RobynPromenade"
       caption="Buoy deployment captured by Robyn Verrinder. L-R: Jan-Victor Björkqvist, Agoritsa Spirakis, Jacques Welgemoed"
       class="img-fluid rounded z-depth-1"
