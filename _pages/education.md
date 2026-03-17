@@ -1,13 +1,12 @@
 ---
 layout: page
-title: education
+title: Education
 permalink: /education/
 description: Academic background, projects, and qualifications.
 nav: true
 nav_order: 2
 ---
 
-# Education
 <div class="edu-entry">
   <div class="edu-logo">
     <img src="/assets/img/example.jpg" alt="Example image">
@@ -63,7 +62,7 @@ I completed my MSc at the <a href="https://africanroboticsunit.com/">African Rob
   </div>
 
   <div class="edu-content">
-    <h2>BSc Eng Electrical and Computer Engineering</h2>
+    <h2>BSc Eng Electrical and Computer Engineering (with honours)</h2>
     <p><strong>University of Cape Town</strong><br><em>2018–2021</em></p>
 
     <p>Specialised in</p>
