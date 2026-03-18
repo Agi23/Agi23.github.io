@@ -170,7 +170,7 @@ nav_order: 3
   </div>
 
   <div class="media-text">
-    <h2>7th South African Nation Antarctic Programme Symposium</h2>
+    <h2>7th South African National Antarctic Programme Symposium</h2>
     <p><strong>Kwalata Game Lodge, Gauteng, South Africa</strong><br><em>2025</em></p>
 
     <p>
