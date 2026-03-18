@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer
+subtitle: Electrical and Computer Engineer 
 
 profile:
   align: right
