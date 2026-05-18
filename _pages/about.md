@@ -25,4 +25,4 @@ latest_posts:
 
 Hi, I’m Agoritsa “Agi” Spirakis.
 
-I completed my undergraduate degree in Electrical and Computer Engineering at the University of Cape Town, before pursuing an MSc focused on 3D reconstruction of pancake sea ice floes using LiDAR and cameras. This work included Antarctic field research, conference presentations, and a publication in an IEEE conference proceedings.
+Electrical and Computer Engineer with an MSc in 3D reconstruction of Antarctic sea ice using LiDAR technology. After an engaging period of interdisciplinary applied research, I am now looking to apply my software engineering skills within industry areas involving real-world systems and challenging physical problems.
